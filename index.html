@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
 </head>
+
 <body>
     <header class="topbar">
         <h1 id="mainTitle">🌎 Disaster Management</h1>
@@ -28,6 +30,15 @@
             <button type="submit">Search</button>
             <span id="status" aria-live="polite"></span>
         </form>
+
+        <div class="auth-box">
+            <input id="username" type="text" placeholder="Username">
+            <input id="password" type="password" placeholder="Password">
+            <button type="button" id="btnLogin">Login</button>
+            <button type="button" id="btnRegister">Sign up</button>
+            <span id="authStatus"></span>
+        </div>
+
     </header>
 
     <main class="layout">
@@ -43,4 +54,5 @@
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
