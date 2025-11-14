@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Disaster Prediction – Incidents</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'incidents/style.css' %}">
+</head>
+<body>
+  <h1>Incidents</h1>
+
+  <section>
+    <h2>Create Incident</h2>
+    <form id="incident-form">
+      <label>Title <input name="title" required></label>
+      <label>Type
+        <select name="incident_type">
+          <option value="earthquake">earthquake</option>
+          <option value="flood">flood</option>
+          <option value="typhoon">typhoon</option>
+        </select>
+      </label>
+      <label>Severity (1-5) <input type="number" name="severity" min="1" max="5" value="1"></label>
+      <label>Location <input name="location" required></label>
+      <button type="submit">Create</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Incident List</h2>
+    <ul id="incident-list"></ul>
+  </section>
+
+  <script src="{% static 'incidents/script.js' %}"></script>
+</body>
+</html>
