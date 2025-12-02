@@ -1,7 +1,5 @@
-// --- PASTE YOUR NASA API KEY HERE ---
 const NASA_API_KEY = '1JTyNypavDvNLqWGP7THy1vJ0M0GhuYdHdwcSgeM'; 
 
-// *** EmailJS Configuration (REPLACE THESE) ***
 const EMAIL_PUBLIC_KEY = 'BZU0UjpduPktYXjzw'
 const EMAIL_SERVICE_ID = 'service_grsv7pq';
 const EMAIL_TEMPLATE_ID = 'template_2it7x8c';
