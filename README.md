@@ -9,7 +9,7 @@ A web-based system for **predicting and visualizing natural disasters** in real-
 - Real-time disaster prediction and visualization on an interactive map.
 - User-friendly interface for exploring disaster data.
 - Modular frontend structure with clear separation of assets, scripts, and components.
-- Support for multiple disaster types (floods, earthquakes, etc.) — expandable for future use.
+- Support for multiple disaster types (Hurricane, earthquakes, etc.) — expandable for future use.
 - Responsive design for desktop and mobile devices.
 
 ---
@@ -18,7 +18,7 @@ A web-based system for **predicting and visualizing natural disasters** in real-
 
 ![Disaster Predict Demo](docs/demo_screenshot.png)
 
-**Live Preview:** [Insert your deployment link here, e.g., GitHub Pages / Netlify / Vercel]
+**Live Preview:** 
 
 ---
 
@@ -27,7 +27,7 @@ A web-based system for **predicting and visualizing natural disasters** in real-
 - **Frontend:** HTML, CSS, JavaScript
 - **Mapping & Visualization:** Leaflet.js
 - **Version Control:** Git + GitHub
-- **Deployment:** GitHub Pages / Netlify / Vercel (optional)
+- **Deployment:** GitHub Pages 
 
 ---
 
@@ -35,7 +35,7 @@ A web-based system for **predicting and visualizing natural disasters** in real-
 
 ### Prerequisites
 
-- Node.js (if you plan to run build tools)
+- Node.js 
 - Modern web browser
 
 ### Installation
