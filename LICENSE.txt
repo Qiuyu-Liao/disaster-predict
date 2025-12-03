@@ -1,11 +1,9 @@
 The MIT License (MIT)
 
-<<<<<<< HEAD
-Copyright (c) 2025 Su Hank (https://codepen.io/Su-Hank/pen/PwPdadZ)
-=======
-Copyright (c) 2025 Su Hank (https://codepen.io/Su-Hank/pen/RNaBqNb)
-Fork of an original work Dizaster Prediction Management System (https://codepen.io/Su-Hank/pen/PwPdadZ)
->>>>>>> 7c0b62a (feat: Add user profile, location services, and email notification logic)
+Copyright (c) 2025 
+Chun Su 
+Ting-Jia Chang 
+Qiuyu Liao
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,3 +22,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
